@@ -1,5 +1,5 @@
 {
-    "name": "pay/allinpay",
+    "name": "allinpay/allinpay",
     "type": "library",
     "description" : "一个通联的支付包",
     "require": {
