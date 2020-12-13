@@ -30,7 +30,7 @@ return [
     'public_key' => env('ALLINPAY_PUBLIC_KEY',''),
 
     // 版本
-    'pay_api_version' => env('ALLINPAY_API_VERSION',11),
+    'pay_api_version' => env('ALLINPAY_API_VERSION','v1.0'),
 
     // 密码
     'pwd' => env('ALLINPAY_CERTIFICATE_PASSWORD',123456),
