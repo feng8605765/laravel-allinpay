@@ -2,7 +2,7 @@
 
 namespace AllInPay\AllInPay\ServiceProviders;
 
-use Modules\Core\Services\AllInPay\Src\Withdraw\Withdraw;
+use AllInPay\Withdraw\Withdraw;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
 

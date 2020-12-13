@@ -4,7 +4,7 @@
 namespace AllInPay\AllInPay\ServiceProviders;
 
 
-use Modules\Core\Services\AllInPay\Src\SignContract\SignContract;
+use AllInPay\SignContract\SignContract;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
 

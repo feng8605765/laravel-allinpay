@@ -2,7 +2,7 @@
 
 namespace AllInPay\AllInPay\ServiceProviders;
 
-use Modules\Core\Services\AllInPay\Src\Balance\Balance;
+use AllInPay\Balance\Balance;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
 

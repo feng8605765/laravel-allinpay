@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Core\Services\AllInPay\Src\Refund;
+namespace AllInPay\Refund;
 
 use AllInPay\AllInPay\Exceptions\Exception;
 use AllInPay\AllInPay\Http\AllInPayClient;

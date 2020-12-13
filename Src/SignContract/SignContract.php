@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Core\Services\AllInPay\Src\SignContract;
+namespace AllInPay\SignContract;
 
 use AllInPay\AllInPay\Http\AllInPayClient;
 
@@ -33,7 +33,7 @@ class SignContract extends AllInPayClient
         $params = [
             'bizUserId' => $request['bizUserId'],
             'jumpUrl'   => self::JUMP_URL,
-            'backUrl'   => 'http://demo.api.86yqy.com/api/admin/product/import-standard-images',
+            'backUrl'   => '',
             'source'    => self::PC_SOURCE,
             'method'    => 'allinpay.yunst.memberService.signContract',
         ];

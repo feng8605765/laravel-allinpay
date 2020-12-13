@@ -1,9 +1,9 @@
 <?php
 
-namespace AllInPay\AllInPay\Balance;
+namespace AllInPay\Balance;
 
+use AllInPay\AllInPay\Exceptions\Exception;
 use AllInPay\AllInPay\Http\AllInPayClient;
-use Yijipay\Yijipay\Exceptions\Exception;
 
 
 class Balance extends AllInPayClient

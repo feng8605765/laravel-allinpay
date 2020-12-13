@@ -2,7 +2,7 @@
 
 namespace AllInPay\AllInPay\ServiceProviders;
 
-use Modules\Core\Services\AllInPay\Src\Refund\Refund;
+use AllInPay\Refund\Refund;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
 
