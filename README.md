@@ -46,6 +46,11 @@ $ composer require allinpay/laravel-allinpay
     $app->register(\AllInPay\AllInPay\AllInPayServiceProvider::class);
 ```
 
+2. 执行 command 命令测试通联接口请求：
+```php
+    php artisan script:test-allinpay
+```
+
 ## 快速使用
 
 ```php

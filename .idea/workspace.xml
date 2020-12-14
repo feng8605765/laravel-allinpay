@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84336c0-7c57-4905-a679-1bac0ef3c069" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/allinpay.iml" afterPath="$PROJECT_DIR$/.idea/allinpay.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/PayConfig.php" afterPath="$PROJECT_DIR$/config/PayConfig.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AllInPay/Http/AllInPayClient.php" afterPath="$PROJECT_DIR$/src/AllInPay/Http/AllInPayClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/psr/container/" />
@@ -49,12 +46,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllInPayClient.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AllInPayClient.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AllInPay/Http/AllInPayClient.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5895">
               <caret line="432" column="21" lean-forward="false" selection-start-line="432" selection-start-column="21" selection-end-line="432" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="400">
+                <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -74,6 +84,7 @@
       <list>
         <option value="$PROJECT_DIR$/config/PayConfig.php" />
         <option value="$PROJECT_DIR$/src/AllInPay/Http/AllInPayClient.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -217,12 +228,12 @@
       <workItem from="1607912461167" duration="2638000" />
       <workItem from="1607927216077" duration="3033000" />
       <workItem from="1607945749097" duration="606000" />
-      <workItem from="1607949663712" duration="516000" />
+      <workItem from="1607949663712" duration="881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="516000" />
+    <option name="totallyTimeSpent" value="881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -292,6 +303,17 @@
         <state relative-caret-position="5895">
           <caret line="432" column="21" lean-forward="false" selection-start-line="432" selection-start-column="21" selection-end-line="432" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="400">
+            <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
