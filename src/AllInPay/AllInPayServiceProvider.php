@@ -22,7 +22,7 @@ class AllInPayServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../../Config/PayConfig.php',
+            __DIR__ . '/../../config/PayConfig.php',
             'allinpay'
         );
 
@@ -55,7 +55,7 @@ class AllInPayServiceProvider extends ServiceProvider
      */
     protected function setupConfig(Application $app)
     {
-        $configPath = realpath(__DIR__.'/../../Config/PayConfig.php');
+        $configPath = realpath(__DIR__ . '/../../config/PayConfig.php');
 
         if ($app instanceof LaravelApplication && $app->runningInConsole()) {
             $this->publishes([$configPath => config_path('payConfig.php')]);

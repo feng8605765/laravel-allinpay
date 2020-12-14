@@ -2,141 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84336c0-7c57-4905-a679-1bac0ef3c069" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config/PayConfig.php" afterPath="$PROJECT_DIR$/Config/PayConfig.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/allinpay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/allinpay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/IndustryCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/IndustryCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/PayConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/PayConfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/1581648210684.pfx" beforeDir="false" afterPath="$PROJECT_DIR$/data/1581648210684.pfx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/DDW2.pfx" beforeDir="false" afterPath="$PROJECT_DIR$/data/DDW2.pfx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TLCert_sxtest.cer" beforeDir="false" afterPath="$PROJECT_DIR$/data/TLCert_sxtest.cer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TLcert-test-new.cer" beforeDir="false" afterPath="$PROJECT_DIR$/data/TLcert-test-new.cer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/开放平台测试环境统一测试参数.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/开放平台测试环境统一测试参数.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/AllInPay.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/AllInPay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/AllInPayServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/AllInPayServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Concerns/PaymentRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Concerns/PaymentRules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Console/TestAllInPayCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Console/TestAllInPayCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Exceptions/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Exceptions/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Facades/AllInPay.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Facades/AllInPay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Http/AllInPayClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Http/AllInPayClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Http/BaseClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Http/BaseClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/BalanceServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/ServiceProviders/BalanceServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/PayConfirmServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/ServiceProviders/PayConfirmServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/RefundServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/ServiceProviders/RefundServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/SignContractServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/ServiceProviders/SignContractServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/WithdrawServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/ServiceProviders/WithdrawServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Util/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Util/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Util/IndustryCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Util/IndustryCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Util/IndustryName.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Util/IndustryName.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Balance/Balance.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Balance/Balance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/PayConfirm/PayConfirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PayConfirm/PayConfirm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Refund/Refund.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Refund/Refund.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/SignContract/SignContract.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignContract/SignContract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Withdraw/Withdraw.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Withdraw/Withdraw.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="WithdrawServiceProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Src/AllInPay/ServiceProviders/WithdrawServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-              <folding>
-                <element signature="e#54#85#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Balance.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Src/Balance/Balance.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#36#79#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PayConfirm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Src/PayConfirm/PayConfirm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Refund.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Src/Refund/Refund.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#35#78#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignContract.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Src/SignContract/SignContract.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Withdraw.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Src/Withdraw/Withdraw.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-              <folding>
-                <element signature="e#37#79#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllInPayClient.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Src/AllInPay/Http/AllInPayClient.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="281" column="52" lean-forward="false" selection-start-line="281" selection-start-column="38" selection-end-line="281" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PayConfig.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Config/PayConfig.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/Src/Withdraw/Withdraw.php" />
-        <option value="$PROJECT_DIR$/Src/SignContract/SignContract.php" />
-        <option value="$PROJECT_DIR$/Src/Refund/Refund.php" />
-        <option value="$PROJECT_DIR$/Src/PayConfirm/PayConfirm.php" />
-        <option value="$PROJECT_DIR$/Src/Balance/Balance.php" />
-        <option value="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/BalanceServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/RefundServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/SignContractServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/WithdrawServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Config/PayConfig.php" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
-    <option name="y" value="47" />
-    <option name="width" value="1281" />
-    <option name="height" value="709" />
-  </component>
+  <component name="ProjectId" id="1ld24uP8X01oQwCxJL2vaj2w9Zw" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -153,60 +63,18 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="allinpay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allinpay" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="allinpay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allinpay" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -216,226 +84,21 @@
       <option name="presentableId" value="Default" />
       <updated>1607838968876</updated>
       <workItem from="1607838970655" duration="5144000" />
+      <workItem from="1607912461167" duration="378000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5144000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="707" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Src/Balance/Balance.php</url>
+          <url>file://$PROJECT_DIR$/src/Balance/Balance.php</url>
           <line>4</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
     </breakpoint-manager>
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/AllInPay/AllInPayServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/AllInPay/AllInPay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#102#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/AllInPay/ServiceProviders/BalanceServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="e#54#83#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/AllInPay/ServiceProviders/PayConfirmServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#56#91#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/AllInPay/ServiceProviders/RefundServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#54#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/AllInPay/ServiceProviders/SignContractServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#56#95#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/AllInPay/ServiceProviders/WithdrawServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="e#54#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/Balance/Balance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#36#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/PayConfirm/PayConfirm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/Refund/Refund.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#35#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/SignContract/SignContract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/Withdraw/Withdraw.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-          <folding>
-            <element signature="e#37#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config/logging.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config/PayConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Src/AllInPay/Http/AllInPayClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="281" column="52" lean-forward="false" selection-start-line="281" selection-start-column="38" selection-end-line="281" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

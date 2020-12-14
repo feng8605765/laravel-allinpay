@@ -1,7 +1,5 @@
 <?php
 
-namespace Modules\Core\Services\AllInPay\Config;
-
 class Config
 {
     protected static $config;
