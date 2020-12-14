@@ -4,9 +4,11 @@
 
 通联支付所有业务支持
 
-## 运行环境
-- PHP 7.1 +
-- laravel/lumen-framework 5.8.x
+## 要求
+| 依赖 | 说明 |
+| -------- | -------- |
+| [PHP](https://secure.php.net/manual/zh/install.php) | `>= 7.1.0` `推荐PHP7+` |
+| [Laravel](https://laravel.com/)/[Lumen](https://lumen.laravel.com/) | `>=5.8` `推荐5.8+` | 
 
 提示：
 - 需要在laravel 5.8以上版本使用
