@@ -189,7 +189,7 @@ class AllInPayClient extends BaseClient
      *
      * @param $arr
      */
-    public function asciiSort(&$arr)
+    protected function asciiSort(&$arr)
     {
         if (is_array($arr)) {
             ksort($arr);
@@ -209,7 +209,7 @@ class AllInPayClient extends BaseClient
      *
      * @return string
      */
-    public function sign(array $strRequest): string
+    protected function sign(array $strRequest): string
     {
         unset($strRequest['signType']);
         $strRequest = array_filter($strRequest);//剔除值为空的参数
@@ -269,6 +269,16 @@ class AllInPayClient extends BaseClient
     public function getPrivateKey()
     {
         return $this->loadPrivateKey($this->config->getConf('private_key'), $this->config->getConf('pwd'));
+    }
+
+    /**
+     * 获取公钥的绝对路径
+     *
+     * @return string
+     */
+    public function getPublicKeyPath()
+    {
+        return $this->config->getConf('public_key');
     }
 
     /**
@@ -376,15 +386,6 @@ class AllInPayClient extends BaseClient
         return $request;
     }
 
-    /**
-     * 获取公钥的绝对路径
-     *
-     * @return string
-     */
-    protected function getPublicKeyPath()
-    {
-        return $this->config->getConf('tlCertPath');
-    }
 
     /**
      * 请求通商云的接口
@@ -437,7 +438,7 @@ class AllInPayClient extends BaseClient
         $flag     = (bool) openssl_verify($text, $sign, $pubKeyId, 'sha256WithRSAEncryption');
         openssl_free_key($pubKeyId);
 
-        \logger()->channel('all-in-pay')->info('[sign value]'.(bool) ($flag));
+        $this->log->info('[sign value]'.(bool) ($flag));
 
         return $flag;
     }
