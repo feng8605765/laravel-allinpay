@@ -26,7 +26,7 @@ class AllInPayServiceProvider extends ServiceProvider
             'allinpay'
         );
 
-        $this->app->singleton('single-allinpay', function ($app) {
+        $this->app->singleton('allinpay', function ($app) {
             return new AllInPay();
         });
 

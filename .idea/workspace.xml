@@ -3,48 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="c84336c0-7c57-4905-a679-1bac0ef3c069" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/allinpay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/allinpay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/IndustryCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/IndustryCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/PayConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/PayConfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/1581648210684.pfx" beforeDir="false" afterPath="$PROJECT_DIR$/data/1581648210684.pfx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/DDW2.pfx" beforeDir="false" afterPath="$PROJECT_DIR$/data/DDW2.pfx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TLCert_sxtest.cer" beforeDir="false" afterPath="$PROJECT_DIR$/data/TLCert_sxtest.cer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TLcert-test-new.cer" beforeDir="false" afterPath="$PROJECT_DIR$/data/TLcert-test-new.cer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/开放平台测试环境统一测试参数.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/开放平台测试环境统一测试参数.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/AllInPay.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/AllInPay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/AllInPayServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/AllInPayServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Concerns/PaymentRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Concerns/PaymentRules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Console/TestAllInPayCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Console/TestAllInPayCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Exceptions/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Exceptions/Exception.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Facades/AllInPay.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Facades/AllInPay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Http/AllInPayClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Http/AllInPayClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Http/BaseClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Http/BaseClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/BalanceServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/ServiceProviders/BalanceServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/PayConfirmServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/ServiceProviders/PayConfirmServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/RefundServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/ServiceProviders/RefundServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/SignContractServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/ServiceProviders/SignContractServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/ServiceProviders/WithdrawServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/ServiceProviders/WithdrawServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Util/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Util/Helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Util/IndustryCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Util/IndustryCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/AllInPay/Util/IndustryName.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Util/IndustryName.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Balance/Balance.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Balance/Balance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/PayConfirm/PayConfirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PayConfirm/PayConfirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Refund/Refund.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Refund/Refund.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/SignContract/SignContract.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignContract/SignContract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Withdraw/Withdraw.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Withdraw/Withdraw.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1ld24uP8X01oQwCxJL2vaj2w9Zw" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -84,12 +62,19 @@
       <option name="presentableId" value="Default" />
       <updated>1607838968876</updated>
       <workItem from="1607838970655" duration="5144000" />
-      <workItem from="1607912461167" duration="378000" />
+      <workItem from="1607912461167" duration="2638000" />
+      <workItem from="1607927216077" duration="1366000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1607925863685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.-462.1080.1920@0.0.1920.1040" timestamp="1607925863685" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
