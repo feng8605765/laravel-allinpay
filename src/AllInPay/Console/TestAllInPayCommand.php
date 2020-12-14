@@ -13,10 +13,17 @@ class TestAllInPayCommand extends Command
      */
     protected $signature = 'script:test-allinpay';
 
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'test allinpay case';
+
     public function handle()
     {
-        $rest = app('single-allinpay')->balance->queryReserveFundBalance(['bizUserId' => '2']);
+        $rest = app('allinpay')->balance->queryReserveFundBalance(['bizUserId' => '2']);
 
-        dump($rest);
+        var_dump($rest);
     }
 }
