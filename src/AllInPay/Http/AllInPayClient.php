@@ -5,7 +5,9 @@ namespace AllInPay\AllInPay\Http;
 use AllInPay\AllInPay\Exceptions\Exception;
 use Carbon\Carbon;
 use GuzzleHttp\Client;
-use Modules\Core\Services\AllInPay\Config\Config;
+
+require_once __DIR__.'/../../../Config/Config.php';
+
 
 class AllInPayClient extends BaseClient
 {
@@ -66,7 +68,7 @@ class AllInPayClient extends BaseClient
 
     public function __construct()
     {
-        $this->config = Config::getInstance();
+        $this->config = \Config::getInstance();
         $this->config->loadConfig('PayConfig.php');
 
         parent::__construct();

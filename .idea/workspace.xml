@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84336c0-7c57-4905-a679-1bac0ef3c069" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/allinpay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/allinpay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllInPay/Http/AllInPayClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllInPay/Http/AllInPayClient.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ld24uP8X01oQwCxJL2vaj2w9Zw" />
@@ -80,6 +81,7 @@
       <workItem from="1607838970655" duration="5144000" />
       <workItem from="1607912461167" duration="2638000" />
       <workItem from="1607927216077" duration="3033000" />
+      <workItem from="1607945749097" duration="93000" />
     </task>
     <servers />
   </component>
