@@ -73,7 +73,7 @@ class AllInPayClient extends BaseClient
 
         parent::__construct();
 
-        $this->log = \logger()->channel('all_in_pay');
+        $this->log = \logger()->channel('allinpay');
     }
 
     /**

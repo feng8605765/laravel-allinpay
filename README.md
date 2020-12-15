@@ -38,6 +38,44 @@ $ composer require allinpay/laravel-allinpay
 ```
 
 2. 配置文件修改在config/allinpay.php 中对应的修改配置
+```php
+    [
+        // 停止支付
+        'stop' => false, 
+        // 当前为测试请求url
+        'api_url' => 'http://test.allinpay.com/op/gateway', 
+        // 通商云的appId
+        'app_id' => env('ALLINPAY_APPID','1581648210684'), 
+        // 对应平台账户sysid
+        'sys_id' => '2002141050372732927',
+        // 应用私钥证书 
+        'private_key' => '../data/1581648210684.pfx',  
+        // 公钥路径
+        'public_key' => '../data/TLCert-test.cer',
+        // 应用私钥证书密码
+        'pwd' => env('ALLINPAY_CERTIFICATE_PASSWORD',123456),
+        // 密码
+        'secretKey' => 'WaHVZNHZYX3v4si1bBTVseIwEMPMcKzL',
+        // 版本
+        'version' => 'v1.0'
+    ]
+```
+
+3. 配置log日志在config/logging.php中增加对应的log配置
+```php
+    'channels' => [
+        'allinpay' => [
+            // 生成的日志规则按月生成
+            'driver' => 'daily', 
+            // 生成的目录路径
+            'path' => storage_path('logs/allinpay/allinpay.log'),  
+            // 日志等级
+            'level' => 'info', 
+            // 保存时间
+            'days' => 14,  
+        ]       
+    ]   
+```
 
 ## Lumen应用
 

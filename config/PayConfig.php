@@ -24,15 +24,12 @@ return [
     'orgid' => '6666666',
 
     // 私钥
-    'private_key' => '../data/1581648210684.pfx',
+    'private_key' => '',
 
     // 公钥
     'public_key' => '../data/TLCert-test.cer',
-
-    // 版本
-    'pay_api_version' => 'v1.0',
-
-    // 密码
+    
+    // 应用私钥证书密码
     'pwd' => env('ALLINPAY_CERTIFICATE_PASSWORD',123456),
 
     // 密码key
