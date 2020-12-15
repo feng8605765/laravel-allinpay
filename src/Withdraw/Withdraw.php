@@ -42,19 +42,17 @@ class Withdraw extends AllInPayClient
      */
     public function formatCashRequest(array $request): array
     {
-        $backUrl = '/api/finance/pay/withdraw/notify';
-
         return [
             'bizOrderNo'   => $request['bizOrderNo'] ?: Helper::getBizOrderNo($request['bizUserId'], 'withdraw'),
             'bizUserId'    => $request['bizUserId'],
             'accountSetNo' => $request['accountSetNo'] ?? '',
             'amount'       => $request['amount'],
             'fee'          => $request['fee'],
-            'backUrl'      => $this->envBackUrl($backUrl),
+            'backUrl'      => $request['backUrl'],
             'bankCardNo'   => $this->encryptAES($request['bankCardNo']),
             'industryCode' => IndustryCode::OTHER,
             'industryName' => IndustryName::OTHER,
-            'source'       => self::PC_SOURCE,
+            'source'       => $request['source'] ?? self::PC_SOURCE,
         ];
     }
 }

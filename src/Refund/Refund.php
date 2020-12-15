@@ -18,23 +18,16 @@ class Refund extends AllInPayClient
      */
     public function refund(array $request)
     {
-        try {
-            $backUrl = '/api/order/refund/notify';
+        $params = [
+            'bizOrderNo'    => $request['bizOrderNo'],
+            'oriBizOrderNo' => $request['oriBizOrderNo'],
+            'bizUserId'     => $request['bizUserId'],
+            'amount'        => $request['amount'],
+            'backUrl'       => $request['backUrl'],
+        ];
 
-            $params = [
-                'bizOrderNo'    => $request['bizOrderNo'],
-                'oriBizOrderNo' => $request['oriBizOrderNo'],
-                'bizUserId'     => $request['bizUserId'],
-                'amount'        => $request['amount'],
-                'backUrl'       => $this->envBackUrl($backUrl),
-            ];
+        $method = 'allinpay.yunst.orderService.refund';
 
-            $method = 'allinpay.yunst.orderService.refund';
-
-            return $this->setBusiness('refund')->guzzleHttp($params, $method);
-
-        } catch (Exception $exception) {
-            throw $exception;
-        }
+        return $this->setBusiness('refund')->guzzleHttp($params, $method);
     }
 }

@@ -32,9 +32,9 @@ class SignContract extends AllInPayClient
 
         $params = [
             'bizUserId' => $request['bizUserId'],
-            'jumpUrl'   => self::JUMP_URL,
-            'backUrl'   => '',
-            'source'    => self::PC_SOURCE,
+            'jumpUrl'   => $request['jumpUrl'] ?? self::JUMP_URL,
+            'backUrl'   => $request['backUrl'],
+            'source'    => $request['source'] ?? self::PC_SOURCE,
             'method'    => 'allinpay.yunst.memberService.signContract',
         ];
 

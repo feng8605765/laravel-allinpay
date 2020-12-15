@@ -17,14 +17,12 @@ class PayConfirm extends AllInPayClient
      */
     public function payConfirm(array $request)
     {
-        $notifyUrl = '/api/order/refund/notify';
-
         $params = [
             'bizOrderNo'       => $request['bizOrderNo'],
             'bizUserId'        => $request['bizUserId'],
             'verificationCode' => $request['verificationCode'],
             'consumerIp'       => $request['consumerIp'],
-            'notifyUrl'        => $this->envNotifyUrl($notifyUrl),
+            'notifyUrl'        => $request['notifyUrl'],
         ];
 
         $method = 'allinpay.yunst.orderService.payByBackSMS';
