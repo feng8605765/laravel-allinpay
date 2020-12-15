@@ -28,7 +28,7 @@ return [
 
     // 公钥
     'public_key' => '../data/TLCert-test.cer',
-    
+
     // 应用私钥证书密码
     'pwd' => env('ALLINPAY_CERTIFICATE_PASSWORD',123456),
 
@@ -37,4 +37,13 @@ return [
 
     // 版本
     'version' => 'v1.0',
+
+    // 用户支付黑名单
+    'user_blacks' => [
+
+    ],
+
+    // 企业支付黑名单
+    'company_blacks' => [
+    ]
 ];

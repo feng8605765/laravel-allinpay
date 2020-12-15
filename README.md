@@ -57,7 +57,11 @@ $ composer require allinpay/laravel-allinpay
         // 密码
         'secretKey' => 'WaHVZNHZYX3v4si1bBTVseIwEMPMcKzL',
         // 版本
-        'version' => 'v1.0'
+        'version' => 'v1.0',
+        // 用户支付黑名单
+        'user_blacks' => [],
+        // 企业支付黑名单
+        'company_blacks' => [],
     ]
 ```
 
