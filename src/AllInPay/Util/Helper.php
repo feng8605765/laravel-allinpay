@@ -12,6 +12,6 @@ class Helper
      */
     public static function getBizOrderNo($id, $businessType)
     {
-        return '000w'.date('YmdHis').mt_rand(1000, 9999).substr($id, -1, 2).$businessType;
+        return "TL" . date("Ymdhis").$businessType;
     }
 }
