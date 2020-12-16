@@ -35,9 +35,12 @@ $ composer require allinpay/laravel-allinpay
 ```
 
 ## 配置
-1. 注册 `ServiceProvider`:
+1. laravel通过config/app.php 中注册 `ServiceProvider`:
 ```php
-    AllInPay\AllInPay\AllInPayServiceProvider::class,
+    'providers' => [
+        // 最后行注入通联服务
+        AllInPay\AllInPay\AllInPayServiceProvider::class,
+    ]
 ```
 
 2. 配置文件修改在config/allinpay.php 中对应的修改配置
