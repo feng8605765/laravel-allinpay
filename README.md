@@ -9,6 +9,9 @@
 | -------- | -------- |
 | [PHP](https://secure.php.net/manual/zh/install.php) | `>= 7.1.0` `推荐PHP7+` |
 | [Laravel](https://laravel.com/)/[Lumen](https://lumen.laravel.com/) | `>=5.8` `推荐5.8+` | 
+| [pimple](https://packagist.org/packages/pimple/pimple) | `^3.0` `PHP依赖注入容器` |
+| [guzzlehttp](https://packagist.org/packages/guzzlehttp/guzzle) | `>= 6.x` `Http客户端` |
+
 
 提示：
 - 需要在laravel 5.8以上版本使用
