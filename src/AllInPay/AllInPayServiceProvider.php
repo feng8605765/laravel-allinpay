@@ -11,6 +11,7 @@ class AllInPayServiceProvider extends ServiceProvider
 {
     public function boot()
     {
+
         $this->setupConfig($this->app);
     }
 
@@ -58,7 +59,7 @@ class AllInPayServiceProvider extends ServiceProvider
         $configPath = realpath(__DIR__ . '/../../config/PayConfig.php');
 
         if ($app instanceof LaravelApplication && $app->runningInConsole()) {
-            $this->publishes([$configPath => config_path('payConfig.php')]);
+            $this->publishes([$configPath => config_path('allinpay.php')]);
         } elseif ($app instanceof \Laravel\Lumen\Application) {
             $app->configure('allinpay');
         }

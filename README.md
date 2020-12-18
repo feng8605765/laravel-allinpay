@@ -43,7 +43,19 @@ $ composer require allinpay/laravel-allinpay
     ]
 ```
 
-2. 配置文件修改在config/allinpay.php 中对应的修改配置
+2. 通过以下命令在config目录下生成通商云的配置文件 `allinpay.php`
+```
+    php artisan vendor:publish
+
+    Which provider or tag's files would you like to publish?:
+      [1 ] Provider: AllInPay\AllInPay\AllInPayServiceProvider
+    > 1
+
+    Copied File [\vendor\allinpay\laravel-allinpay\config\AllInPay.php] To [\config\allinpay.php]
+    Publishing complete.
+```
+
+3. 配置文件修改在config/allinpay.php 中对应的修改配置
 ```php
     [
         // 停止支付
@@ -71,7 +83,7 @@ $ composer require allinpay/laravel-allinpay
     ]
 ```
 
-3. 配置log日志在config/logging.php中增加对应的log配置
+4. 配置log日志在config/logging.php中增加对应的log配置
 ```php
     'channels' => [
         'allinpay' => [
