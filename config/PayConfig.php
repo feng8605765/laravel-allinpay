@@ -29,6 +29,9 @@ return [
     // 公钥
     'public_key' => __DIR__.'/../data/TLCert-test-new.cer',
 
+    // 验签的证书
+    'tl_cert_path' => __DIR__.'/../data/TLCert-test-new.cer',
+
     // 应用私钥证书密码
     'pwd' => env('ALLINPAY_CERTIFICATE_PASSWORD',123456),
 

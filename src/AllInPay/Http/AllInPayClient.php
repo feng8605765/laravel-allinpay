@@ -22,6 +22,9 @@ class AllInPayClient extends BaseClient
         'selectBalance' => '选择余额',
         'payByBackSMS' => '确认支付',
         'resendPaySMS' => '重发短信',
+        'queryReserveFundBalance' => '查询储备资金余额',
+        'depositApply' => '充值申请',
+        'consumeApply' => '消费申请'
     ];
 
     /**
@@ -214,12 +217,8 @@ class AllInPayClient extends BaseClient
         unset($strRequest['signType']);
         $strRequest = array_filter($strRequest);//剔除值为空的参数
         ksort($strRequest);
-        $sb = '';
 
-        foreach ($strRequest as $entry_key => $entry_value) {
-            $sb .= $entry_key.'='.$entry_value.'&';
-        }
-        $sb = trim($sb, '&');
+        $sb = $this->getStrRequest($strRequest);
 
         $this->log->info("[业务：{$this->business}][待签名源串]".json_encode($sb));
 
@@ -238,29 +237,37 @@ class AllInPayClient extends BaseClient
     }
 
     /**
+     * 获取接口请求的url参数
+     * @param $strRequest
+     * @return string
+     */
+    protected function getStrRequest($strRequest)
+    {
+        $sb = '';
+
+        foreach ($strRequest as $entry_key => $entry_value) {
+            $sb .= $entry_key.'='.$entry_value.'&';
+        }
+
+        return trim($sb, '&');
+    }
+
+    /**
      * 验证回调的签名
      *
      * @param array $request 请求的数据
      *
-     * @throws Exception
      *
      * @return bool
      */
     public function checkSign(array $request): bool
     {
-        $requestSign = $request['sign'];
+        $sign = base64_decode($request['sign']);
+        unset($request['sign'], $request['signType']);
 
-        unset($request['sign']);
+        $str = $this->getStrRequest($request);
 
-        $sign = $this->sign($request);
-
-        if ($sign != $requestSign) {
-            $this->log->error("[业务：{$this->business}回调签名验证失败]".json_encode($request));
-
-            return false;
-        }
-
-        return true;
+        return $this->verify($this->config->getConf('tl_cert_path'), $str, $sign);
     }
 
     /**
